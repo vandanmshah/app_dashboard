@@ -6,7 +6,11 @@
         <script src="../static/lib/bootstrap/bootstrap.min.js"></script>
         <link rel="stylesheet" href="../static/lib/bootstrap/bootstrap.min.css">
 
+        <script type="text/javascript" src="../static/src/js/helpers/rpc.js"></script>
+        <script type="text/javascript" src="../static/src/js/views/list_view.js"></script>
         <script type="text/javascript" src="../static/src/js/dashboard.js"></script>
+        <link rel="stylesheet" href="../static/src/css/loading_spinner.css">
+        <link rel="stylesheet" href="../static/src/css/dashboard.css">
         <title>Dashboard</title>
     </head>
     <body>
@@ -21,41 +25,11 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
-        <table class="table table-hover">
-            <thead>
-                <tr>
-                    <th scope="col">Name</th>
-                    <th scope="col">Status</th>
-                    <th scope="col">Total uploadaed Documents</th>
-                    <th scope="col">Uploaded Date</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="table-active">
-                    <th scope="row">Batch 4290</th>
-                    <td>Processing</td>
-                    <td>3</td>
-                    <td>2018-09-25T02:14:50</td>
-                </tr>
-                <tr>
-                    <th scope="row">Batch 4291</th>
-                    <td>success</td>
-                    <td>3</td>
-                    <td>2018-09-25T02:14:50</td>
-                </tr>
-                <tr class="table-active">
-                    <th scope="row">Batch 4292</th>
-                    <td>Queued</td>
-                    <td>3</td>
-                    <td>2018-09-25T02:14:50</td>
-                </tr>    
-            </tbody>
-        </table> 
+        <div class="main_content">
+            <label>Search: </label></label><input class="table_search mr-sm-2" style="margin: 20px;" type="text" placeholder="Search in table">
+        </div>
+        <ul class="pager pagination justify-content-center"></ul>
     </body>
 </html>
