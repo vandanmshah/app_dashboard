@@ -1,4 +1,11 @@
 $(document).ready(function () {
+    /**
+     * When you click on pagination button this will
+     * re-render whole ListView with new data
+     *
+     * @param {Event} ev event
+     * @param {object} res JSON object
+     */
     var onPagerBtnClick = function (ev, res) {
         $(".page-item").removeClass("active")
         $(ev.currentTarget.parentElement).addClass("active")
@@ -12,6 +19,9 @@ $(document).ready(function () {
         var $table = ListView(res, usedKeys, theadData, limit);
         $table.appendTo($(".main_content"));
     };
+    /**
+     * This callback is for searching
+     */
     $(".table_search").on("keyup", function () {
         // Declare variables 
         var input, filter, table, tr, td, i;
@@ -39,6 +49,7 @@ $(document).ready(function () {
         }
     });
     
+    // call _rpc to get JSON response
     _rpc({
         method: "search_read",
     }).then(function (res) {
@@ -49,6 +60,9 @@ $(document).ready(function () {
         var theadData = ['No', 'Name', 'Status', 'Date Uploaded'];
         // var param = ListView.makeTable(res, usedKeys, theadData, "1-10")
         var $table = ListView(res, usedKeys, theadData, "1-10");
+
+        // onClick callback on <tr /> to display more data
+        // open form_view.html file and pass ID which is currently clicked
         $table.find("tbody tr").on("click", function (e) {
             var currentFieldId = $(e.currentTarget).data("id");
             window.open("form_view.html?field_id=" + currentFieldId , "_self");

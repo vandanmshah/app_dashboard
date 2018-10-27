@@ -1,7 +1,39 @@
 (function (global) {
+    /**
+     * @public
+     *
+     * this function helps to construct ListView (<table /> structure from given response)
+     * Most IMP thing is you can get table structure anywhere you can reuse this function very easily
+     *
+     * @param {object} res DB or JSON response
+     * @param {Array} usedKeys from that response how meany fields (from DB) are used to display in ListView
+     * @param {Array} theadData all the names you want to display on thead of table
+     * @param {string} limit optional perameters for pagenation
+     */
     var ListView = function (res, usedKeys, theadData, limit) {
         return ListView.init(res, usedKeys, theadData, limit);
     }
+    /**
+     * @private
+     *
+     * This  function construct Jquery formeted table
+     * @param {object} params pass the key as a tag and array as a data to display to formet table
+     *
+     * Example:- pass the params in following
+     * var params = {
+     *      table: {
+     *          thead: {
+     *              tr: {
+     *                  td: [array of data]
+     *              }
+     *          }
+     *          tbody: {
+     *              // pass the data as showed in thead
+     *          }
+     *      }
+     * }
+     * @returns Jquery formeted <table /> element
+     */
     var render = function (params) {
         var $elem = $("");
         for (var el in params) {
@@ -30,15 +62,42 @@
         }
         return $elem;
     };
+    /**
+     * @private
+     *
+     * this function is in development
+     * this function helps to sort by the clicked <th />
+     * @param {*} ev
+     * @param {*} params
+     */
     var sortRow = function (ev, params) {
         var fieldName = ev.currentTarget.dataset.field;
     };
+    /**
+     * @private
+     *
+     * This function split the whole JSON object in given limit which helps in pagination
+     *
+     * @param {object} res JSON response
+     * @param {string} limit pagination limit
+     * @returns splited JSON response
+     */
     var splitData = function (res, limit) {
         limit = limit.split("-");
         var startIndex = Number(limit[0]) - 1;
         var endIndex = Number(limit[1]);
         return res.slice(startIndex, endIndex);
     }
+    /**
+     * @private
+     *
+     * @param {object} res
+     * @param {Array} usedKeys from that response how meany fields (from DB) are used to display in ListView
+     * @param {Array} theadData all the names you want to display on thead of table
+     * @param {string} limit optional perameters for pagenation
+     *
+     * @returns {object} which you can pass to render function to construct <table /> element
+     */
     var makeTable = function (res, usedKeys, theadData, limit) {
         var tbodyData = [];
         res = limit ? splitData(res, limit) : res;
