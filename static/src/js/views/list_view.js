@@ -33,12 +33,15 @@
     var sortRow = function (ev, params) {
         var fieldName = ev.currentTarget.dataset.field;
     };
-    var makeTable = function (res, usedKeys, theadData, limit) {
-        var tbodyData = [];
+    var splitData = function (res, limit) {
         limit = limit.split("-");
         var startIndex = Number(limit[0]) - 1;
         var endIndex = Number(limit[1]);
-        res = res.slice(startIndex, endIndex);
+        return res.slice(startIndex, endIndex);
+    }
+    var makeTable = function (res, usedKeys, theadData, limit) {
+        var tbodyData = [];
+        res = limit ? splitData(res, limit) : res;
         for (var index = 0; index < res.length; index++) {
             var tdData = {
                 td: [],
@@ -74,6 +77,12 @@
         $th.attr("scope", "col").click(function (ev) {
             sortRow(ev, params);
         });
+        var allData = limit ? splitData(res, limit) : res;
+        var $tr = $table.find('tbody tr');
+        // debugger
+        for (var index = 0; index < $tr.length; index++) {
+            $tr[index].setAttribute("data-id", allData[index]["set_id"]);
+        }
         return $table;
     };
     ListView.prototype = {

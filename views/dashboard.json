@@ -1,361 +1,105 @@
 [{
+	"set_id": 1209,
+	"name": "Batch 4290",
+	"no": "1",
+	"status": "processing",
+	"documents": [{
 		"set_id": 1209,
-		"name": "Batch 4290",
-		"no" : 1,
+		"doc_id": 217,
+		"name": "1823696_Proof_16Feb2017.pdf",
+		"status": "uploaded",
+		"uploader": "john",
+		"preview_url": "/file/cluster/ZEFTLSPOIR/preview.jpeg",
+		"date_uploaded": "2018-09-25T02:14:51"
+	}, {
+		"set_id": 1209,
+		"doc_id": 218,
+		"name": "10538_PA_16031.pdf",
+		"status": "queued",
+		"uploader": "john",
+		"preview_url": "/file/cluster/DCZBFJCDLN/preview.jpeg",
+		"date_uploaded": "2018-09-25T02:14:51"
+	}, {
+		"set_id": 1209,
+		"doc_id": 219,
+		"name": "3704_KR_130.pdf",
+		"status": "failed",
+		"uploader": "john",
+		"preview_url": "/file/cluster/DCZBFJCDLN/preview.jpeg",
+		"date_uploaded": "2018-09-25T02:14:51"
+	}, {
+		"set_id": 1209,
+		"doc_id": 229,
+		"name": "21104_NY_11830.pdf",
 		"status": "processing",
-		"documents": [{
-			"set_id": 1209,
-			"doc_id": 217,
-			"name": "1823696_Proof_16Feb2017.pdf",
-			"status": "uploaded",
-			"uploader": "john",
-			"preview_url": "/file/cluster/ZEFTLSPOIR/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:51"
-		}, {
-			"set_id": 1209,
-			"doc_id": 218,
-			"name": "10538_PA_16031.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/DCZBFJCDLN/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:51"
-		}, {
-			"set_id": 1209,
-			"doc_id": 219,
-			"name": "3704_KR_130.pdf",
-			"status": "failed",
-			"uploader": "john",
-			"preview_url": "/file/cluster/DCZBFJCDLN/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:51"
-		}, {
-			"set_id": 1209,
-			"doc_id": 229,
-			"name": "21104_NY_11830.pdf",
-			"status": "processing",
-			"uploader": "john",
-			"preview_url": "/file/cluster/OPNJEBJMRC/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:51"
-		}],
-		"date_uploaded": "2018-09-25T02:14:50"
-	},
-	{
+		"uploader": "john",
+		"preview_url": "/file/cluster/OPNJEBJMRC/preview.jpeg",
+		"date_uploaded": "2018-09-25T02:14:51"
+	}],
+	"date_uploaded": "2018-09-25T02:14:50"
+},
+{
+	"set_id": 1210,
+	"name": "Batch 4291",
+	"no": "2",
+	"status": "success",
+	"documents": [{
 		"set_id": 1210,
-		"name": "Batch 4291",
-		"no" : 2,
+		"doc_id": 224,
+		"name": "NBUAT001.pdf",
 		"status": "success",
-		"documents": [{
-			"set_id": 1210,
-			"doc_id": 224,
-			"name": "NBUAT001.pdf",
-			"status": "success",
-			"uploader": "john",
-			"preview_url": "/file/cluster/ZEFTLSPOIR/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:51"
-		}, {
-			"set_id": 1210,
-			"doc_id": 225,
-			"name": "NBUAT002.pdf",
-			"status": "success",
-			"uploader": "john",
-			"preview_url": "/file/cluster/NZGBSYGUWR/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}, {
-			"set_id": 1210,
-			"doc_id": 226,
-			"name": "NBUAT003.pdf",
-			"status": "success",
-			"uploader": "john",
-			"preview_url": "/file/cluster/WAVBKJHVNZ/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}],
-		"date_uploaded": "2018-09-25T02:14:50"
-	},
-	{
-		"set_id": 1211,
-		"name": "Batch 4292",
-		"no" : 3,
+		"uploader": "john",
+		"preview_url": "/file/cluster/ZEFTLSPOIR/preview.jpeg",
+		"date_uploaded": "2018-09-25T02:14:51"
+	}, {
+		"set_id": 1210,
+		"doc_id": 225,
+		"name": "NBUAT002.pdf",
+		"status": "success",
+		"uploader": "john",
+		"preview_url": "/file/cluster/NZGBSYGUWR/preview.jpeg",
+		"date_uploaded": "2018-09-25T02:14:54"
+	}, {
+		"set_id": 1210,
+		"doc_id": 226,
+		"name": "NBUAT003.pdf",
+		"status": "success",
+		"uploader": "john",
+		"preview_url": "/file/cluster/WAVBKJHVNZ/preview.jpeg",
+		"date_uploaded": "2018-09-25T02:14:54"
+	}],
+	"date_uploaded": "2018-09-25T02:14:50"
+},
+{
+	"set_id": 1211,
+	"name": "Batch 4292",
+	"no": "3",
+	"status": "queued",
+	"documents": [{
+		"set_id": 1210,
+		"doc_id": 314,
+		"name": "LBUAT001.pdf",
 		"status": "queued",
-		"documents": [{
-			"set_id": 1210,
-			"doc_id": 314,
-			"name": "LBUAT001.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/QWXTQTXL/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:51"
-		}, {
-			"set_id": 1210,
-			"doc_id": 315,
-			"name": "LBUAT002.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/URUPOALZMF/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}, {
-			"set_id": 1210,
-			"doc_id": 316,
-			"name": "LBUAT003.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/JDASQIB/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}],
-		"date_uploaded": "2018-09-25T02:14:50"
-	},
-	{
-		"set_id": 1211,
-		"name": "Batch 4292",
-		"no" : 4,
+		"uploader": "john",
+		"preview_url": "/file/cluster/QWXTQTXL/preview.jpeg",
+		"date_uploaded": "2018-09-25T02:14:51"
+	}, {
+		"set_id": 1210,
+		"doc_id": 315,
+		"name": "LBUAT002.pdf",
 		"status": "queued",
-		"documents": [{
-			"set_id": 1210,
-			"doc_id": 314,
-			"name": "LBUAT001.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/QWXTQTXL/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:51"
-		}, {
-			"set_id": 1210,
-			"doc_id": 315,
-			"name": "LBUAT002.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/URUPOALZMF/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}, {
-			"set_id": 1210,
-			"doc_id": 316,
-			"name": "LBUAT003.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/JDASQIB/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}],
-		"date_uploaded": "2018-09-25T02:14:50"
-	},
-	{
-		"set_id": 1211,
-		"name": "Batch 4292",
-		"no" : 5,
+		"uploader": "john",
+		"preview_url": "/file/cluster/URUPOALZMF/preview.jpeg",
+		"date_uploaded": "2018-09-25T02:14:54"
+	}, {
+		"set_id": 1210,
+		"doc_id": 316,
+		"name": "LBUAT003.pdf",
 		"status": "queued",
-		"documents": [{
-			"set_id": 1210,
-			"doc_id": 314,
-			"name": "LBUAT001.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/QWXTQTXL/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:51"
-		}, {
-			"set_id": 1210,
-			"doc_id": 315,
-			"name": "LBUAT002.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/URUPOALZMF/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}, {
-			"set_id": 1210,
-			"doc_id": 316,
-			"name": "LBUAT003.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/JDASQIB/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}],
-		"date_uploaded": "2018-09-25T02:14:50"
-	},
-	{
-		"set_id": 1211,
-		"name": "Batch 4292",
-		"no" : 6,
-		"status": "queued",
-		"documents": [{
-			"set_id": 1210,
-			"doc_id": 314,
-			"name": "LBUAT001.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/QWXTQTXL/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:51"
-		}, {
-			"set_id": 1210,
-			"doc_id": 315,
-			"name": "LBUAT002.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/URUPOALZMF/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}, {
-			"set_id": 1210,
-			"doc_id": 316,
-			"name": "LBUAT003.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/JDASQIB/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}],
-		"date_uploaded": "2018-09-25T02:14:50"
-	},
-	{
-		"set_id": 1211,
-		"name": "Batch 4292",
-		"no" : 7,
-		"status": "queued",
-		"documents": [{
-			"set_id": 1210,
-			"doc_id": 314,
-			"name": "LBUAT001.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/QWXTQTXL/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:51"
-		}, {
-			"set_id": 1210,
-			"doc_id": 315,
-			"name": "LBUAT002.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/URUPOALZMF/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}, {
-			"set_id": 1210,
-			"doc_id": 316,
-			"name": "LBUAT003.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/JDASQIB/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}],
-		"date_uploaded": "2018-09-25T02:14:50"
-	},
-	{
-		"set_id": 1211,
-		"name": "Batch 4292",
-		"no" : 8,
-		"status": "queued",
-		"documents": [{
-			"set_id": 1210,
-			"doc_id": 314,
-			"name": "LBUAT001.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/QWXTQTXL/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:51"
-		}, {
-			"set_id": 1210,
-			"doc_id": 315,
-			"name": "LBUAT002.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/URUPOALZMF/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}, {
-			"set_id": 1210,
-			"doc_id": 316,
-			"name": "LBUAT003.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/JDASQIB/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}],
-		"date_uploaded": "2018-09-25T02:14:50"
-	},
-	{
-		"set_id": 1211,
-		"name": "Batch 4292",
-		"no" : 9,
-		"status": "queued",
-		"documents": [{
-			"set_id": 1210,
-			"doc_id": 314,
-			"name": "LBUAT001.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/QWXTQTXL/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:51"
-		}, {
-			"set_id": 1210,
-			"doc_id": 315,
-			"name": "LBUAT002.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/URUPOALZMF/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}, {
-			"set_id": 1210,
-			"doc_id": 316,
-			"name": "LBUAT003.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/JDASQIB/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}],
-		"date_uploaded": "2018-09-25T02:14:50"
-	},
-	{
-		"set_id": 1211,
-		"name": "Batch 4292",
-		"no" : 10,
-		"status": "queued",
-		"documents": [{
-			"set_id": 1210,
-			"doc_id": 314,
-			"name": "LBUAT001.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/QWXTQTXL/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:51"
-		}, {
-			"set_id": 1210,
-			"doc_id": 315,
-			"name": "LBUAT002.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/URUPOALZMF/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}, {
-			"set_id": 1210,
-			"doc_id": 316,
-			"name": "LBUAT003.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/JDASQIB/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}],
-		"date_uploaded": "2018-09-25T02:14:50"
-	},
-	{
-		"set_id": 1211,
-		"name": "11th Batch 4292",
-		"no" : 11,
-		"status": "queued",
-		"documents": [{
-			"set_id": 1210,
-			"doc_id": 314,
-			"name": "LBUAT001.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/QWXTQTXL/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:51"
-		}, {
-			"set_id": 1210,
-			"doc_id": 315,
-			"name": "LBUAT002.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/URUPOALZMF/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}, {
-			"set_id": 1210,
-			"doc_id": 316,
-			"name": "LBUAT003.pdf",
-			"status": "queued",
-			"uploader": "john",
-			"preview_url": "/file/cluster/JDASQIB/preview.jpeg",
-			"date_uploaded": "2018-09-25T02:14:54"
-		}],
-		"date_uploaded": "2018-09-25T02:14:50"
-	}
+		"uploader": "john",
+		"preview_url": "/file/cluster/JDASQIB/preview.jpeg",
+		"date_uploaded": "2018-09-25T02:14:54"
+	}],
+	"date_uploaded": "2018-09-25T02:14:50"
+}
 ]

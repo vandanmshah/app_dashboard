@@ -1,0 +1,12 @@
+.form_main_data {
+    margin: 15px;
+}
+.form_main_data .form_field {
+    margin: 15px;
+}
+.form_main_data .form_field label {
+    font-weight: bold;
+}
+.form_main_data span {
+    margin: 15px;
+}
